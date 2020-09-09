@@ -10,11 +10,33 @@
 </head>
 <body>
 
-    <H1>Creat Your CV</H1>
-    <H2>Please fill this form to genatare your CV</H2>
-    <form action="">
-        
-    </form>
+    <div class="container">
+        <div class="top">
+            <H1>Creat Your CV</H1>
+            <H2>Please fill this form to genatare your CV</H2>
+        </div>
+    
+        <form action="" id="form1">
+            <label for="name" class="title">Full Name(Capital Letter):</label>
+            <input type="text" class="input" id="name"><br>
+            <label for="name" class="title">Adress:</label>
+            <input type="textaria" class="input" id="adress"><br>
+            <label for="name" class="title">CAREER OBJECTIVE:</label>
+            <input type="text" class="input" id="c_obj"><br>
+            <label for="Communication_Skills" class="title">Communication Skills:</label>
+            <input type="text" class="input" id="c_skill"><br>
+            <label for="AREAS_OF_EXPERTISE" class="title">AREAS OF EXPERTISE:</label>
+            <input type="text" class="input" id="experties"><br>
+            <label for="phone_number" class="title">Phone Number:</label>
+            <input type="text" class="input" id="phone"><br>
+            <label for="PROFESSIONAL_COMPETENCIES" class="title">PROFESSIONAL COMPETENCIES:</label>
+            <input type="text" class="input" id="pro_comp"><br>
+            <input type="button" id="submit" value="Submit" onclick="myFunction()" >
+        </form>
+    </div>
+
+    <p id="demo"></p>
+
 
     <script src="./JS/app.js"></script>
 </body>
