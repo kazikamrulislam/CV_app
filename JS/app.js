@@ -8,6 +8,7 @@ function myFunction(){
     profile.experties = document.getElementById("experties").value;
     profile.phone = document.getElementById("phone").value;
     profile.pro_comp = document.getElementById("pro_comp").value;
+    profile.e_mail = document.getElementById("e_mail").value;
     // document.getElementById("demo").innerHTML = profile.name + " " + profile.adress + " " + profile.c_obj + " " + profile.c_skill + " " + profile.experties + " " + profile.phone + " " + profile.pro_comp ? profile.name + " " + profile.adress + " " + profile.c_obj + " " + profile.c_skill + " " + profile.experties + " " + profile.phone + " " + profile.pro_comp : 'Empty';
 }
 
