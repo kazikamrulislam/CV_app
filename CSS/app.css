@@ -22,3 +22,25 @@
 .title{
     
 }
+
+.form-group.row{
+    position: relative;
+}
+
+.addnew{
+    border: 2px solid #5a777ca6;
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    display: inline-block;
+    padding: 0;
+    line-height: 20px;
+    cursor: pointer;
+}

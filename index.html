@@ -39,10 +39,13 @@
                     </div>
                 </div>
 
-                <div class="form-group row">
-                    <label for="E-mail" class="col-sm-4 col-form-label">E-mail::</label>
-                    <div class="col-sm-8">
-                        <input type="text" class="form-control" id="e_mail">
+                <div id="email_container">
+                    <div class="form-group row">
+                        <label for="E-mail" class="col-sm-4 col-form-label">E-mail::</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="e_mail">
+                        </div>
+                        <span class="addnew" onclick="addnewone()">+</span>
                     </div>
                 </div>
             </div>
@@ -54,10 +57,16 @@
                 <input type="file" class="form-control-file" id="imge">
             </div>
         </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="name" class="title">CAREER OBJECTIVE:</label>
+                <!-- <input type="text" class="input" id="c_obj"><br> -->
+                <textarea class="form-control" aria-label="With textarea" id="c_obj"></textarea>
+            </div>
+        </div>
     
         <form action="" id="form1">
-            <label for="name" class="title">CAREER OBJECTIVE:</label>
-            <input type="text" class="input" id="c_obj"><br>
             <label for="Communication_Skills" class="title">Communication Skills:</label>
             <input type="text" class="input" id="c_skill"><br>
             <label for="AREAS_OF_EXPERTISE" class="title">AREAS OF EXPERTISE:</label>
